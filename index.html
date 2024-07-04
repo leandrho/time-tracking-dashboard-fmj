@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+<main class="container">
+  <div class="card-hero">
+    <div class="card-hero-info">
+      <img src="./images/image-jeremy.png" alt="">
+      <div class="card-hero-data">
+        <p>Report for</p>
+        <h1>Jeremy Robson</h1>
+      </div>
+    </div>
+    <div class="card-hero-menu">
+      <input type="radio" name="menu" id="daily" class="input">
+      <label for="daily" class="menu-item">Daily</label>
+      <input type="radio" name="menu" id="weekly" checked>
+      <label for="weekly" class="menu-item">Weekly</label>
+      <input type="radio" name="menu" id="monthly">
+      <label for="monthly" class="menu-item">Monthly</label>      
+    </div>
+  </div>
+  <div class="card-containter">
+    <div class="card work">
+      <div class="card-header">
+        <h2 class="card-title">Work</h2>
+        <button class="card-btn" aria-label="open"></button>
+      </div>
+      <div class="card-content">
+        <p class="card-current"></p>
+        <p class="card-previous"></p>
+      </div>
+    </div>
+  </div>
+  <div class="card-containter">
+    <div class="card play">
+      <div class="card-header">
+        <h2 class="card-title">Play</h2>
+        <button class="card-btn" aria-label="open"></button>
+      </div>
+      <div class="card-content">
+        <p class="card-current"></p>
+        <p class="card-previous"></p>
+      </div>
+    </div>
+  </div>
+  <div class="card-containter">
+    <div class="card study">
+      <div class="card-header">
+        <h2 class="card-title">Study</h2>
+        <button class="card-btn" aria-label="open"></button>
+      </div>
+      <div class="card-content">
+        <p class="card-current"></p>
+        <p class="card-previous"></p>
+      </div>
+    </div>
+  </div>
+  <div class="card-containter">
+    <div class="card exercise">
+      <div class="card-header">
+        <h2 class="card-title">Exercise</h2>
+        <button class="card-btn" aria-label="open"></button>
+      </div>
+      <div class="card-content">
+        <p class="card-current"></p>
+        <p class="card-previous"></p>
+      </div>
+    </div>
+  </div>  
+
+  <div class="card-containter">
+    <div class="card social">
+      <div class="card-header">
+        <h2 class="card-title">Social</h2>
+        <button class="card-btn" aria-label="open"></button>
+      </div>
+      <div class="card-content">
+        <p class="card-current"></p>
+        <p class="card-previous"></p>
+      </div>
+    </div>
+  </div>
+  <div class="card-containter">
+    <div class="card self-care">
+      <div class="card-header">
+        <h2 class="card-title">Self Care</h2>
+        <button class="card-btn" aria-label="open"></button>
+      </div>
+      <div class="card-content">
+        <p class="card-current"></p>
+        <p class="card-previous"></p>
+      </div>
+    </div>
+  </div>
+
+</main>
+  
+<script src="./script.js"></script>
+
+</body>
+</html>
