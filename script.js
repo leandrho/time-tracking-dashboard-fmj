@@ -67,7 +67,7 @@ const setData = (option) => {
         if(option=="daily"){
             cur=element.timeframes.daily.current;
             prev=element.timeframes.daily.previous;
-            setValues(op, cur+'hrs', `Yestarday - ${prev}hrs`);
+            setValues(op, cur+'hrs', `Yesterday - ${prev}hrs`);
         }
         else if(option=="weekly"){
             cur=element.timeframes.weekly.current;
